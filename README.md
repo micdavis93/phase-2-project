@@ -1,52 +1,34 @@
 ![logo](lotr-website-cra/src/images/lord-of-the-rings-png-logo-6392.png)
 
-Project Title - Readme.md HTML Template
+Phase 2 Project - Lord of the Rings Movie Information Site
 =======================================
 
-Intro - Boilerplate for Readme.md on Github
+## Goals
 
-* * *
+- Build a React single page application from scratch
+- Apply my knowledge of components, props and state management
+- Incorporate client-side routing
+- Use data from an API
 
-Describe you project -> I hate to always "reinvent" README.md on GitHub that is why I decided to make this Starter README.md template. Also I prefer HTML syntax because I use HTML every day and it has some extra features like center the elements.
+## Overview
 
-### List of features
+To apply my learning from Flatiron School's Software Engineering Program Phase 2, I am going to nerd out and make a Lord of the Rings movie trilogy website. This site will grab data from a free API and create a simple React app using that data. Users will be able to:
 
-*   Beautiful Starter Template for README.md
-*   Key feature num. 2
-*   Key feature num. 3
-*   Key feature num. 4
+1. Look up LOTR character bios and quotes
+2. Search and sort characters based on any of those pieces of information
+3. Create their own character with an image, bio, and quote
 
-### Demo -> Show me what you got
+## Project Requirements
 
-[Link to your awesome Demo](#) 
+1. Make a single page application (only one `index.html` file) using `create-react-app`.
+2. My app should use at least 5 components in a way that keeps the code well-organized.
+3. There should be at least 3 client-side routes using React Router, including a nav bar or other UI element that allows users to navigate between routes, and using RESTful routing conventions where applicable.
+4. Use a `json-server` to create a RESTful API for the backend and make both a `GET` and a `POST` request to the json server. Use a form to make the post request, specifically a controlled form/component.
+   - Keep the `json-server` data simple: avoid nested data and associations.
+   - Upon return of json from the POST request, a state update by a setState function is required!
+5. Add some styling, either by using `styled components` or writing CSS files and using id/className to style elements.
 
-[Another Link to your awesome Demo](#)
+=======================================
 
-### Code Demo
-
-```html We will use markdown for the Syntax Highlighting
-
-<li>Beautiful Starter Template for README.md</li>
-<li>Key feature num. 2</li>
-<li>Key feature num. 3</li>
-<li>Key feature num. 4</li>
-
-```
-
-### Download & Installation
-
-```shell 
-$ npm i boilerplate-readme-template 
-```
-
-### Contributing
-
-Keep it simple. Keep it minimal. Don't put every single feature just because you can.
-
-### Authors or Acknowledgments
-
-*   Vladimir Carrer
-
-### License
-
-This project is licensed under the MIT License
+More information at:
+https://learning.flatironschool.com/courses/5249/pages/phase-2-project-guidelines?module_item_id=504654
