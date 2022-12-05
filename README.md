@@ -1,4 +1,4 @@
-![logo]("lotr-website-cra/src/images/lord-of-the-rings-png-logo-6392.png")
+![logo]("")
 
 Project Title - Readme.md HTML Template
 =======================================
