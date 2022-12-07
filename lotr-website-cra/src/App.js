@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react"
 import { Route, Switch } from "react-router-dom";
+import {api} from "./Key"
 
 import Header from "./components/Header"
 import NavBar from "./components/NavBar"
@@ -16,23 +17,19 @@ export default function App() {
   const [characters, setCharacters] = useState([])
 
   useEffect(() => {
-    fetch("https://the-one-api.dev/v2/character", {
-      headers: {
-        'Accept': 'application/json',
-        'Authorization': 'Bearer zO055AjvEv_Wr2i9DMuZ'
-      }
-    })
+    fetch("https://localhost:3000/characters")
     .then(r => r.json())
     .then(data => {
-      setCharacters(data.docs)
+      setCharacters(data)
+      console.log(characters)
     })
   }, [])
 
-  console.log(characters)
+  // console.log(characters)
 
   return (
     <div className="App">
-      <Header />
+      {/* <Header />
       <NavBar />
       <Switch>
         <Route exact path="/">
@@ -54,7 +51,7 @@ export default function App() {
         <Route path="/quotes">
           <Quotes />
         </Route>
-      </Switch>
+      </Switch> */}
     </div>
   );
 }

@@ -1,0 +1,80 @@
+{
+    "movie-characters" : [
+        {
+            "id" : 1,
+            "name" : "",
+            "wikiUrl" : "",
+            "pronunciation" : "",
+            "aka" : "",
+            "gender" : "",
+            "height" : "",
+            "actor" : {
+                "name" : "",
+                "wikipedia" : ""
+            },
+            "first-app" : {
+                "theatrical" : {
+                    "movie" : "",
+                    "minutes" : 0,
+                    "seconds" : 0,
+                    "image" : ""
+                },
+                "extended" : {
+                    "movie" : "",
+                    "minutes" : 0,
+                    "seconds" : 0,
+                    "image" : ""
+                }
+            },
+            "title" : "",
+            "birth" : {
+                "year" : "",
+                "location" : ""
+            },
+            "death" : "",
+            "culture" : "",
+            "origin" : "",
+            "image" : "",
+            "spouse" : "",
+            "parents" : {
+                "mother" : "",
+                "father" : ""
+            },
+            "description" : "",
+            "accomplishments" : {
+                "fellowship" : [
+                    "",
+                    "",
+                    ""
+                ],
+                "towers" : [
+                    "",
+                    "",
+                    ""
+                ],
+                "return" : [
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "quotes" : {
+                "fellowship" : [
+                    "",
+                    "",
+                    ""
+                ],
+                "towers" : [
+                    "",
+                    "",
+                    ""
+                ],
+                "return" : [
+                    "",
+                    "",
+                    ""
+                ]
+            }
+        }
+    ]
+}
