@@ -1,9 +1,13 @@
 import React, {useState, useEffect} from "react"
 import { Route, Switch } from "react-router-dom";
+import { Container } from "semantic-ui-react";
 
 import Header from "./components/Header"
-import NavBar from "./components/NavBar"
-import { Container } from "semantic-ui-react";
+import Home from "./components/Home"
+import CharacterList from "./components/CharacterList"
+import MovieList from "./components/MovieList"
+import QuoteList from "./components/QuoteList"
+import AccomplishmentList from "./components/AccomplishmentList"
 
 export default function App() {
 
@@ -22,20 +26,25 @@ export default function App() {
   return (
     <div className="App">
       <Header />
-      {/* <NavBar /> */}
-      <Container>
-        {/* <Switch> */}
-          {/* <Route exact path="/"> */}
-            {/* <Home /> */}
-          {/* </Route> */}
-          {/* <Route exact path="/"> */}
-            {/* <Home /> */}
-          {/* </Route> */}
-          {/* <Route exact path="/"> */}
-            {/* <Home /> */}
-          {/* </Route> */}
-        {/* </Switch> */}
-      </Container>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/characters">
+          <Container>
+            <CharacterList characters={characters}/>
+          </Container>
+        </Route>
+        <Route path="/movies">
+          <MovieList />
+        </Route>
+        <Route path="/quotes">
+          <QuoteList />
+        </Route>
+        <Route path="/accomplishments">
+          <AccomplishmentList />
+        </Route>
+      </Switch>
     </div>
   );
 }
