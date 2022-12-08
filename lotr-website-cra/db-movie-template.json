@@ -19,6 +19,7 @@
                 "age": 0
             },
             "culture": "",
+            "weapons": "",
             "spouse": "",
             "parents": {
                 "mother": "",
@@ -45,7 +46,6 @@
                 }
             },
             "description": "",
-            "weapons": "",
             "actions": {
                 "fellowship": {
                     "quotes": [""],
@@ -59,7 +59,7 @@
                     "quotes": [""],
                     "accomplishments": [""]
                 }
-            },
+            }
         }
     ]
 }

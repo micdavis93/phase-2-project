@@ -22,13 +22,19 @@ export default function App() {
   return (
     <div className="App">
       <Header />
-      <NavBar />
+      {/* <NavBar /> */}
       <Container>
-        <Switch>
-          <Route exact path="/">
+        {/* <Switch> */}
+          {/* <Route exact path="/"> */}
             {/* <Home /> */}
-          </Route>
-        </Switch>
+          {/* </Route> */}
+          {/* <Route exact path="/"> */}
+            {/* <Home /> */}
+          {/* </Route> */}
+          {/* <Route exact path="/"> */}
+            {/* <Home /> */}
+          {/* </Route> */}
+        {/* </Switch> */}
       </Container>
     </div>
   );

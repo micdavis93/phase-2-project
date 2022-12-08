@@ -19,6 +19,7 @@
                 "age": 8374
             },
             "culture": "Elves",
+            "weapons": "Nenya",
             "spouse": "Celeborn",
             "parents": {
                 "mother": "Eärwen",
@@ -45,34 +46,36 @@
                 }
             },
             "description": "Galadriel was the Lady of the woods of Lothlórien, which she ruled with Celeborn, her husband. One of the greatest of the Elves in Middle-earth, she surpassed nearly all others in beauty, knowledge, and power. She bore Nenya, one of the three Elven rings of power. J.R.R. Tolkien thought of her as one of the mightiest and fairest of all Elves remaining in Middle-earth in the Third Age.",
-            "weapons": "Nenya",
             "actions": {
                 "fellowship": {
                     "quotes": [
-                        "The quest stands upon the edge of a knife.",
                         "Even the smallest person can change the course of the future.",
+                        "The quest stands upon the edge of a knife.",
                         "Welcome, Frodo of the Shire, one who has seen the Eye!",
-                        "May it be a light to you in dark places, when all other lights go out.",
-                        "The power of the Three Rings is ended. The time has come for the dominion of Men."
+                        "May it be a light to you in dark places, when all other lights go out."
                     ],
                     "accomplishments": [
-                        "Provided safe haven for the fellowship in her domain of Lorien after the fall of Gandalf",
-                        "Emparted crucial wisdom and elven gifts to each member of the fellowship",
-                        "Resisted the temptation to take the one ring from Frodo"
+                        "provides safe haven for the fellowship in her domain of Lorien after the fall of Gandalf",
+                        "emparts crucial wisdom and elven gifts to each member of the fellowship",
+                        "resists the temptation to take The One Ring from Frodo"
                     ]
                 },
                 "towers": {
-                    "quotes": [""],
+                    "quotes": [
+                        "The strength of the Ringbearer is failing. In his heart, Frodo begins to understand. The quest will claim his life."
+                    ],
                     "accomplishments": [""]
                 },
                 "return": {
-                    "quotes": [""],
+                    "quotes": [
+                        "The power of the Three Rings is ended. The time has come... for the dominion of Men."
+                    ],
                     "accomplishments": [
-                        "Sent Frodo a message of encouragement in Shelob's Lair",
-                        "Accompanied Frodo, Gandalf, and Elrond upon the departure from the Grey Havens"  
+                        "sends Frodo a message of encouragement in Shelob's Lair",
+                        "accompanies Frodo, Gandalf, and Elrond upon the departure to Valinor from Middle Earth"  
                     ]
                 }
-            },
+            }
         }
     ],
     "movies": [
