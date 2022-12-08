@@ -1,0 +1,149 @@
+{
+    "movie-characters": [
+        {
+            "id": 1,
+            "name": "Galadriel",
+            "image": "https://static.wikia.nocookie.net/lotr/images/c/cb/Galadriel.jpg",
+            "wikiUrl": "https://lotr.fandom.com/wiki/Galadriel",
+            "pronunciation": "guh·LA·dree·uhl",
+            "aka": "Alatáriel, Artanis, Nerwen",
+            "gender": "F",
+            "height": "6'4\"",
+            "titles": "Princess of the Ñoldor, Lady of Lórien, Lady of the Galadhrim",
+            "birth": {
+                "year": "YT 1362",
+                "location": "Valinor"
+            },
+            "death": {
+                "year": "Departed to Valinor on September 29, TA 3021",
+                "age": 8374
+            },
+            "culture": "Elves",
+            "spouse": "Celeborn",
+            "parents": {
+                "mother": "Eärwen",
+                "father": "Finarfin"
+            },
+            "actor": {
+                "name": "Cate Blanchett",
+                "wikipedia": "https://en.wikipedia.org/wiki/Cate_Blanchett"
+            },
+            "first-app": {
+                "theatrical": {
+                    "movie": "fellowship",
+                    "minutes": 1,
+                    "seconds": 0,
+                    "image": "",
+                    "source": ""
+                },
+                "extended": {
+                    "movie": "",
+                    "minutes": 0,
+                    "seconds": 0,
+                    "image": "",
+                    "source": ""
+                }
+            },
+            "description": "Galadriel was the Lady of the woods of Lothlórien, which she ruled with Celeborn, her husband. One of the greatest of the Elves in Middle-earth, she surpassed nearly all others in beauty, knowledge, and power. She bore Nenya, one of the three Elven rings of power. J.R.R. Tolkien thought of her as one of the mightiest and fairest of all Elves remaining in Middle-earth in the Third Age.",
+            "weapons": "Nenya",
+            "accomplishments": {
+                "fellowship": [
+                    "Provided safe haven for the fellowship in her domain of Lorien after the fall of Gandalf",
+                    "Emparted crucial wisdom and elven gifts to each member of the fellowship",
+                    "Resisted the temptation to take the one ring from Frodo"
+                ],
+                "towers": [""],
+                "return": [
+                    "Sent Frodo a message of encouragement in Shelob's Lair",
+                    "Accompanied Frodo, Gandalf, and Elrond upon the departure from the Grey Havens"
+                ]
+            },
+            "quotes": {
+                "fellowship": [
+                    "The quest stands upon the edge of a knife.",
+                    "Even the smallest person can change the course of the future.",
+                    "Welcome, Frodo of the Shire, one who has seen the Eye!",
+                    "May it be a light to you in dark places, when all other lights go out.",
+                    "The power of the Three Rings is ended. The time has come for the dominion of Men."
+                ],
+                "towers": [""],
+                "return": [""]
+            }
+        },
+        {
+            "id": 2,
+            "name": "asdf",
+            "image": "asdf",
+            "wikiUrl": "asdf",
+            "pronunciation": "asdf",
+            "aka": "asdf",
+            "gender": "asdf",
+            "height": "asdf",
+            "titles": "asdf",
+            "birth": {
+                "year": "asdf",
+                "location": "asdf"
+            },
+            "death": {
+                "year": "asdf",
+                "age": 0
+            },
+            "culture": "asdf",
+            "spouse": "asdf",
+            "parents": {
+                "mother": "asdf",
+                "father": "asdf"
+            },
+            "actor": {
+                "name": "asdf",
+                "wikipedia": "asdf"
+            },
+            "first-app": {
+                "theatrical": {
+                    "movie": "asdf",
+                    "minutes": 0,
+                    "seconds": 0,
+                    "image": "asdf"
+                },
+                "extended": {
+                    "movie": "asdf",
+                    "minutes": 0,
+                    "seconds": 0,
+                    "image": "asdf"
+                }
+            },
+            "description": "asdf",
+            "accomplishments": {
+                "fellowship": [
+                    "asdf",
+                    "asdf",
+                    "asdf"
+                ],
+                "towers": [
+                    "asdf",
+                    "asdf",
+                    "asdf"
+                ],
+                "return": [
+                    "asdf",
+                    "asdf",
+                    "asdf"
+                ]
+            },
+            "quotes": {
+                "fellowship": [
+                    "asdf",
+                    "asdf"
+                ],
+                "towers": [
+                    "asdf",
+                    "asdf"
+                ],
+                "return": [
+                    "asdf",
+                    "asdf"
+                ]
+            }
+        }
+    ]
+}

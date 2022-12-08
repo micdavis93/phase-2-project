@@ -1,0 +1,58 @@
+{
+    "movie-characters" : [
+        {
+            "id" : 1,
+            "name" : "",
+            "image" : "",
+            "wikiUrl" : "",
+            "pronunciation" : "",
+            "aka" : "",
+            "gender" : "",
+            "height" : "",
+            "titles" : "",
+            "birth" : {
+                "year" : "",
+                "location" : ""
+            },
+            "death" : {
+                "year" : "",
+                "age" : 0
+            },
+            "culture" : "",
+            "spouse" : "",
+            "parents" : {
+                "mother" : "",
+                "father" : ""
+            },
+            "actor" : {
+                "name" : "",
+                "wikipedia" : ""
+            },
+            "first-app" : {
+                "theatrical" : {
+                    "movie" : "",
+                    "minutes" : 0,
+                    "seconds" : 0,
+                    "image" : ""
+                },
+                "extended" : {
+                    "movie" : "",
+                    "minutes" : 0,
+                    "seconds" : 0,
+                    "image" : ""
+                }
+            },
+            "description" : "",
+            "accomplishments" : {
+                "fellowship" : [""],
+                "towers" : [""],
+                "return" : [""]
+            },
+            "quotes": {
+                "fellowship": [""],
+                "towers": [""],
+                "return": [""]
+            }
+        }
+    ]
+}
