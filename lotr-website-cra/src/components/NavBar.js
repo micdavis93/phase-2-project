@@ -5,7 +5,7 @@ export default function NavBar() {
   return (
     <nav>
         <NavLink to="/">
-            All Characters
+            Characters
         </NavLink>
         
         <NavLink to="/movies">
@@ -14,10 +14,6 @@ export default function NavBar() {
 
         <NavLink to="/quotes">
             Quotes
-        </NavLink>
-
-        <NavLink to="/books">
-            Books
         </NavLink>
     </nav>
   )

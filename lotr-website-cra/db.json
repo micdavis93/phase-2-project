@@ -31,119 +31,107 @@
             "first-app": {
                 "theatrical": {
                     "movie": "fellowship",
-                    "minutes": 1,
-                    "seconds": 0,
+                    "minute": 1,
+                    "second": 0,
                     "image": "",
                     "source": ""
                 },
                 "extended": {
                     "movie": "",
-                    "minutes": 0,
-                    "seconds": 0,
+                    "minute": 0,
+                    "second": 0,
                     "image": "",
                     "source": ""
                 }
             },
             "description": "Galadriel was the Lady of the woods of Lothlórien, which she ruled with Celeborn, her husband. One of the greatest of the Elves in Middle-earth, she surpassed nearly all others in beauty, knowledge, and power. She bore Nenya, one of the three Elven rings of power. J.R.R. Tolkien thought of her as one of the mightiest and fairest of all Elves remaining in Middle-earth in the Third Age.",
             "weapons": "Nenya",
-            "accomplishments": {
-                "fellowship": [
-                    "Provided safe haven for the fellowship in her domain of Lorien after the fall of Gandalf",
-                    "Emparted crucial wisdom and elven gifts to each member of the fellowship",
-                    "Resisted the temptation to take the one ring from Frodo"
-                ],
-                "towers": [""],
-                "return": [
-                    "Sent Frodo a message of encouragement in Shelob's Lair",
-                    "Accompanied Frodo, Gandalf, and Elrond upon the departure from the Grey Havens"
-                ]
+            "actions": {
+                "fellowship": {
+                    "quotes": [
+                        "The quest stands upon the edge of a knife.",
+                        "Even the smallest person can change the course of the future.",
+                        "Welcome, Frodo of the Shire, one who has seen the Eye!",
+                        "May it be a light to you in dark places, when all other lights go out.",
+                        "The power of the Three Rings is ended. The time has come for the dominion of Men."
+                    ],
+                    "accomplishments": [
+                        "Provided safe haven for the fellowship in her domain of Lorien after the fall of Gandalf",
+                        "Emparted crucial wisdom and elven gifts to each member of the fellowship",
+                        "Resisted the temptation to take the one ring from Frodo"
+                    ]
+                },
+                "towers": {
+                    "quotes": [""],
+                    "accomplishments": [""]
+                },
+                "return": {
+                    "quotes": [""],
+                    "accomplishments": [
+                        "Sent Frodo a message of encouragement in Shelob's Lair",
+                        "Accompanied Frodo, Gandalf, and Elrond upon the departure from the Grey Havens"  
+                    ]
+                }
             },
-            "quotes": {
-                "fellowship": [
-                    "The quest stands upon the edge of a knife.",
-                    "Even the smallest person can change the course of the future.",
-                    "Welcome, Frodo of the Shire, one who has seen the Eye!",
-                    "May it be a light to you in dark places, when all other lights go out.",
-                    "The power of the Three Rings is ended. The time has come for the dominion of Men."
-                ],
-                "towers": [""],
-                "return": [""]
-            }
+        }
+    ],
+    "movies": [
+        {
+            "id": 1,
+            "title": "fellowship",
+            "release-year": "2001",
+            "length": {
+                "theatrical": 178,
+                "extended": 208
+            },
+            "description": "The Lord of the Rings: The Fellowship of the Ring is a 2001 epic fantasy adventure film directed by Peter Jackson from a screenplay by Fran Walsh, Philippa Boyens, and Jackson, based on 1954's The Fellowship of the Ring, the first volume of the novel The Lord of the Rings by J. R. R. Tolkien. The film is the first installment in The Lord of the Rings trilogy. It features an ensemble cast including Elijah Wood, Ian McKellen, Liv Tyler, Viggo Mortensen, Sean Astin, Cate Blanchett, John Rhys-Davies, Billy Boyd, Dominic Monaghan, Orlando Bloom, Christopher Lee, Hugo Weaving, Sean Bean, Ian Holm, and Andy Serkis.
+
+            Set in Middle-earth, the story tells of the Dark Lord Sauron, who seeks the One Ring, which contains part of his might, to return to power. The Ring has found its way to the young hobbit Frodo Baggins. The fate of Middle-earth hangs in the balance as Frodo and eight companions (who form the Fellowship of the Ring) begin their journey to Mount Doom in the land of Mordor, the only place where the Ring can be destroyed. The Fellowship of the Ring was financed and distributed by American studio New Line Cinema, but filmed and edited entirely in Jackson's native New Zealand, concurrently with the other two parts of the trilogy.
+            
+            It premiered on 10 December 2001 at the Odeon Leicester Square in London, and was then released on 19 December in the United States and on 20 December in New Zealand. The film was acclaimed by critics and fans alike, who considered it to be a landmark in filmmaking and an achievement in the fantasy film genre. It received praise for its visual effects, performances, Jackson's direction, screenplay, musical score, and faithfulness to the source material. It grossed over $880 million worldwide in its initial release, making it the second highest-grossing film of 2001 and the fifth highest-grossing film of all time at the time of its release.[5] Following subsequent reissues, it has as of 2021 grossed over $897 million.[4]
+            
+            Like its successors, The Fellowship of the Ring is widely recognized as one of the greatest and most influential films ever made. The film received numerous accolades; at the 74th Academy Awards, it was nominated for thirteen awards, including Best Picture, winning for Best Cinematography, Best Makeup, Best Original Score, and Best Visual Effects.
+            
+            In 2007, the American Film Institute named it one of the 100 greatest American films in history, being both the most recent film and the only film released in the 21st century to make it to the list. In 2021, the film was selected for preservation in the United States National Film Registry by the Library of Congress for being culturally, historically, or aesthetically significant.
+            
+            Two sequels, The Two Towers and The Return of the King, followed in 2002 and 2003, respectively.",
+            "wikipedia": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Fellowship_of_the_Ring"
         },
         {
             "id": 2,
-            "name": "asdf",
-            "image": "asdf",
-            "wikiUrl": "asdf",
-            "pronunciation": "asdf",
-            "aka": "asdf",
-            "gender": "asdf",
-            "height": "asdf",
-            "titles": "asdf",
-            "birth": {
-                "year": "asdf",
-                "location": "asdf"
+            "title": "towers",
+            "release-year": "2002",
+            "runtime": {
+                "theatrical": 179,
+                "extended": 223
             },
-            "death": {
-                "year": "asdf",
-                "age": 0
+            "description": "The Lord of the Rings: The Two Towers is a 2002 epic fantasy adventure film directed by Peter Jackson from a screenplay by Fran Walsh, Philippa Boyens, Stephen Sinclair, and Jackson, based on 1954's The Two Towers, the second volume of the novel The Lord of the Rings by J. R. R. Tolkien. The sequel to 2001's The Lord of the Rings: The Fellowship of the Ring, the film is the second instalment in The Lord of the Rings trilogy. It features an ensemble cast including Elijah Wood, Ian McKellen, Liv Tyler, Viggo Mortensen, Sean Astin, Cate Blanchett, John Rhys-Davies, Bernard Hill, Christopher Lee, Billy Boyd, Dominic Monaghan, Orlando Bloom, Hugo Weaving, Miranda Otto, David Wenham, Brad Dourif, Karl Urban, and Andy Serkis.
+
+            Continuing the plot of the previous film, it intercuts three storylines. Frodo and Sam continue their journey towards Mordor to destroy the One Ring, meeting and joined by Gollum, the ring's former keeper. Aragorn, Legolas, and Gimli come to the war-torn nation of Rohan and are reunited with the resurrected Gandalf, before fighting against the legions of the treacherous wizard Saruman at the Battle of Helm's Deep. Merry and Pippin escape capture, meet Treebeard the Ent, and help to plan an attack on Isengard, fortress of Saruman.
+            
+            The Two Towers was financed and distributed by American studio New Line Cinema, but filmed and edited entirely in Jackson's native New Zealand, concurrently with the other two parts of the trilogy. It premiered on 5 December 2002 at the Ziegfeld Theatre in New York City, and was then released on 18 December in the United States and on 19 December in New Zealand. The film was acclaimed by both critics and audiences, who considered it to be a landmark in filmmaking and an achievement in the fantasy film genre. It received praise for its direction, action sequences, performances, musical score, and CGI, particularly for Gollum. It grossed over $936 million worldwide, making it the highest-grossing film of 2002 and the third highest-grossing film of all time at the time of its release, behind Titanic and Harry Potter and the Philosopher's Stone.[4] Following subsequent reissues, it has, as of 2021, grossed over $947 million.[3]
+            
+            Like the other films in the trilogy, The Two Towers is widely recognized as one of the greatest and most influential films ever made. The film received numerous accolades; at the 75th Academy Awards, it was nominated for six awards, including Best Picture, winning for Best Sound Editing and Best Visual Effects.
+            
+            The final instalment of the trilogy, The Return of the King, was released in 2003.",
+            "wikipedia": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Two_Towers"
+        },
+        {
+            "id": 3,
+            "title": "return",
+            "release-year": "2003",
+            "runtime": {
+                "theatrical": 201,
+                "extended": 251
             },
-            "culture": "asdf",
-            "spouse": "asdf",
-            "parents": {
-                "mother": "asdf",
-                "father": "asdf"
-            },
-            "actor": {
-                "name": "asdf",
-                "wikipedia": "asdf"
-            },
-            "first-app": {
-                "theatrical": {
-                    "movie": "asdf",
-                    "minutes": 0,
-                    "seconds": 0,
-                    "image": "asdf"
-                },
-                "extended": {
-                    "movie": "asdf",
-                    "minutes": 0,
-                    "seconds": 0,
-                    "image": "asdf"
-                }
-            },
-            "description": "asdf",
-            "accomplishments": {
-                "fellowship": [
-                    "asdf",
-                    "asdf",
-                    "asdf"
-                ],
-                "towers": [
-                    "asdf",
-                    "asdf",
-                    "asdf"
-                ],
-                "return": [
-                    "asdf",
-                    "asdf",
-                    "asdf"
-                ]
-            },
-            "quotes": {
-                "fellowship": [
-                    "asdf",
-                    "asdf"
-                ],
-                "towers": [
-                    "asdf",
-                    "asdf"
-                ],
-                "return": [
-                    "asdf",
-                    "asdf"
-                ]
-            }
+            "description": "The Lord of the Rings: The Return of the King is a 2003 epic fantasy adventure film directed by Peter Jackson from a screenplay by Fran Walsh, Philippa Boyens, and Jackson, based on 1955's The Return of the King, the third volume of the novel The Lord of the Rings by J. R. R. Tolkien. The sequel to 2002's The Lord of the Rings: The Two Towers, the film is the final installment in The Lord of the Rings trilogy. It features an ensemble cast including Elijah Wood, Ian McKellen, Liv Tyler, Viggo Mortensen, Sean Astin, Cate Blanchett, John Rhys-Davies, Bernard Hill, Billy Boyd, Dominic Monaghan, Orlando Bloom, Hugo Weaving, Miranda Otto, David Wenham, Karl Urban, John Noble, Andy Serkis, Ian Holm, and Sean Bean.
+
+            Continuing the plot of the previous film, Frodo, Sam and Gollum are making their final way toward Mount Doom in Mordor in order to destroy the One Ring, unaware of Gollum's true intentions, while Merry, Pippin, Gandalf, Aragorn, Legolas, Gimli and the rest are joining forces together against Sauron and his legions in Minas Tirith.
+            
+            The Return of the King was financed and distributed by American studio New Line Cinema, but filmed and edited entirely in Jackson's native New Zealand, concurrently with the other two parts of the trilogy. It premiered on 1 December 2003 at the Embassy Theatre in Wellington, and was then released on 17 December 2003 in the United States and on 18 December 2003 in New Zealand. The film was acclaimed by both critics and audiences, who considered it to be a landmark in filmmaking and the fantasy film genre, with praise for the visual effects, performances, action sequences, direction, screenplay, musical score, costume design and emotional depth. It grossed over $1.1 billion worldwide, making it the highest-grossing film of 2003 and the second highest-grossing film of all time at the time of its release, as well as the highest-grossing film released by New Line Cinema.[5]
+            
+            Like the other films in the trilogy, The Return of the King is widely recognized as one of the greatest and most influential films ever made. The film received numerous accolades; at the 76th Academy Awards, it won all eleven awards for which it was nominated, including Best Picture, tying with 1959's Ben-Hur and 1997's Titanic as the movie with the most Academy Award wins. It also became the second film series whose entries have all won Best Visual Effects, after the original Star Wars trilogy.",
+            "wikipedia": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Return_of_the_King"
         }
     ]
 }

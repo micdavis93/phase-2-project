@@ -17,7 +17,7 @@ export default function App() {
     })
   }, [])
 
-  console.log(characters)
+  // console.log(characters)
 
   return (
     <div className="App">

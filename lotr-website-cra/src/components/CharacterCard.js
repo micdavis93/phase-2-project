@@ -1,7 +1,7 @@
 import {useState} from "react";
 import { Card } from "semantic-ui-react";
 
-function PokemonCard({character}) {
+function CharacterCard({character}) {
   // console.log(pokemon)
   const {name, hp, sprites} = pokemon
 

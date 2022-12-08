@@ -1,58 +1,65 @@
 {
     "movie-characters" : [
         {
-            "id" : 1,
-            "name" : "",
-            "image" : "",
-            "wikiUrl" : "",
-            "pronunciation" : "",
-            "aka" : "",
-            "gender" : "",
-            "height" : "",
-            "titles" : "",
-            "birth" : {
-                "year" : "",
-                "location" : ""
+            "id": 1,
+            "name": "",
+            "image": "",
+            "wikiUrl": "",
+            "pronunciation": "",
+            "aka": "",
+            "gender": "",
+            "height": "",
+            "titles": "",
+            "birth": {
+                "year": "",
+                "location": ""
             },
-            "death" : {
-                "year" : "",
-                "age" : 0
+            "death": {
+                "year": "",
+                "age": 0
             },
-            "culture" : "",
-            "spouse" : "",
-            "parents" : {
-                "mother" : "",
-                "father" : ""
+            "culture": "",
+            "spouse": "",
+            "parents": {
+                "mother": "",
+                "father": ""
             },
-            "actor" : {
-                "name" : "",
-                "wikipedia" : ""
+            "actor": {
+                "name": "",
+                "wikipedia": ""
             },
-            "first-app" : {
-                "theatrical" : {
-                    "movie" : "",
-                    "minutes" : 0,
-                    "seconds" : 0,
-                    "image" : ""
+            "first-app": {
+                "theatrical": {
+                    "movie": "",
+                    "minute": 0,
+                    "second": 0,
+                    "image": "",
+                    "source": ""
                 },
-                "extended" : {
-                    "movie" : "",
-                    "minutes" : 0,
-                    "seconds" : 0,
-                    "image" : ""
+                "extended": {
+                    "movie": "",
+                    "minute": 0,
+                    "second": 0,
+                    "image": "",
+                    "source": ""
                 }
             },
-            "description" : "",
-            "accomplishments" : {
-                "fellowship" : [""],
-                "towers" : [""],
-                "return" : [""]
+            "description": "",
+            "weapons": "",
+            "actions": {
+                "fellowship": {
+                    "quotes": [""],
+                    "accomplishments": [""]
+                },
+                "towers": {
+                    "quotes": [""],
+                    "accomplishments": [""]
+                },
+                "return": {
+                    "quotes": [""],
+                    "accomplishments": [""]
+                }
             },
-            "quotes": {
-                "fellowship": [""],
-                "towers": [""],
-                "return": [""]
-            }
         }
     ]
 }
