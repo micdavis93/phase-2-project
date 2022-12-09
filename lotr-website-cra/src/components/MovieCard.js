@@ -14,7 +14,7 @@ export default function MovieCard({movie}) {
             
             description={description}
 
-            extra={<Link to={wikipedia} target="_blank">More Information</Link>}
+            extra={<a href={wikipedia} target="_blank">More Information</a>}
         />
     )
 }

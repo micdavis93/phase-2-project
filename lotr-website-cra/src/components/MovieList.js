@@ -23,9 +23,9 @@ export default function Home() {
 
   return (
       <div>
+        <AddNewMovie addNewMovie={addNewMovie}/>
         <h2>All Movies</h2>
         <MovieCollection movies={movies} />
-        <AddNewMovie addNewMovie={addNewMovie}/>
       </div>
   )
 }

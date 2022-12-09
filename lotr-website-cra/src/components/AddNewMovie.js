@@ -25,15 +25,15 @@ export default function AddNewMovie({addNewMovie}) {
     function handleFormSubmit(e) {
         e.preventDefault();
         const newMovie = {
-            title: "",
-            releaseYear: "",
+            title: formValues.title,
+            releaseYear: formValues.releaseYear,
             length: {
-                theatrical: "",
-                extended: ""
+                theatrical: Number(formValues.length),
+                extended: 0
             },
-            image: "",
-            description: "",
-            wikipedia: ""
+            image: formValues.image,
+            description: formValues.description,
+            wikipedia: formValues.wikipedia
         }
 
         fetch("http://localhost:4000/movies", {
@@ -49,10 +49,11 @@ export default function AddNewMovie({addNewMovie}) {
 
     return (
         <div className="ui segment">
-            <form handleFormSubmit={handleFormSubmit}>
-                <div className="inline fields">
+            <form onSubmit={handleFormSubmit}>
+                <div>
                     <input type="text" name="title" placeholder="Title" onChange={handleFormValues} />
                     <input type="text" name="releaseYear" placeholder="Release Year" onChange={handleFormValues} />
+                    <input type="text" name="length" placeholder="Length in Minutes" onChange={handleFormValues} />
                     <input type="text" name="image" placeholder="Image" onChange={handleFormValues} />
                     <input type="text" name="description" placeholder="Description" onChange={handleFormValues} />
                     <input type="text" name="wikipedia" placeholder="Wikipedia URL" onChange={handleFormValues} />
