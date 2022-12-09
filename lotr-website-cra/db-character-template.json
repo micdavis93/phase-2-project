@@ -5,10 +5,11 @@
             "name": "",
             "image": "",
             "wikiUrl": "",
-            "pronunciation": "",
+            "pronunciation": "·",
             "aka": "",
             "gender": "",
-            "height": "",
+            "pronouns": ["he", "him", "his"],
+            "height": "'\"",
             "titles": "",
             "birth": {
                 "year": "",
@@ -29,7 +30,7 @@
                 "name": "",
                 "wikipedia": ""
             },
-            "first-app": {
+            "firstApp": {
                 "theatrical": {
                     "movie": "",
                     "minute": 0,
@@ -59,7 +60,8 @@
                     "quotes": [""],
                     "accomplishments": [""]
                 }
-            }
+            },
+            "favorite": false
         }
     ]
 }

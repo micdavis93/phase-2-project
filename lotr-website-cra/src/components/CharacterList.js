@@ -1,38 +1,42 @@
-import React from "react"
-import { Card } from "semantic-ui-react";
+import React, { useState, useEffect } from "react"
+import { Container } from "semantic-ui-react";
+// import { Route, Switch } from "react-router-dom"
 
-import CharacterCard from "./CharacterCard"
+import CharacterSearch from "./CharacterSearch"
+// import CharacterPage from "./CharacterPage"
+// import AddNewCharacter from "./AddNewCharacter"
+import CharacterCollection from "./CharacterCollection";
 
-export default function CharacterList({characters}) {
+export default function CharacterList() {
     
-    const mappedCharacters = characters.map(character => {
-        return <CharacterCard key={character.id} character={character} />
+  const [characters, setCharacters] = useState([])
+  const [searchQuery, setSearchQuery] = useState("")
+
+  const addNewCharacter = newCharacter => {
+    const newCharacterList = [...characters, newCharacter];
+    setCharacters(newCharacterList);
+  }
+
+  useEffect(() => {
+    fetch("http://localhost:4000/movie-characters")
+    .then(r => r.json())
+    .then(data => {
+      setCharacters(data)
+    })
+  }, [])
+
+  console.log(characters)
+
+  const filteredCharacters = characters.filter(character => {
+      return character.name.toLowerCase().includes(searchQuery.toLowerCase())
     })
 
-    return (
-        <Card.Group itemsPerRow={4} >
-            <h2>All Movie Characters</h2>
-        </Card.Group>
-    )
+  return (
+      <Container textAlign="center">
+          <h2>All Movie Characters</h2>
+          <CharacterSearch searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
+          <CharacterCollection characters={filteredCharacters} />
+          {/* <AddNewCharacter addNewCharacter={addNewCharacter} /> */}
+      </Container>
+  )
 }
-
-
-// import React from "react";
-// import PokemonCard from "./PokemonCard";
-// import { Card } from "semantic-ui-react";
-
-// function PokemonCollection({pokemon}) {
-
-//   const mappedPokemon = pokemon.map((onePokemon) => {
-//     return <PokemonCard key={onePokemon.id} pokemon={onePokemon}/>
-//   })
-
-//   return (
-//     <Card.Group itemsPerRow={6}>
-//       <h1>Hello From Pokemon Collection</h1>
-//       {mappedPokemon}
-//     </Card.Group>
-//   );
-// }
-
-// export default PokemonCollection;
