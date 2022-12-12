@@ -59,7 +59,8 @@
                 "return": {
                     "quotes": [""],
                     "accomplishments": [""]
-                }
+                },
+                "otherQuotes": []
             },
             "favorite": false
         }

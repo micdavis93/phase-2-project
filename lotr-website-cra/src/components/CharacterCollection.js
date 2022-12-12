@@ -11,7 +11,7 @@ export default function CharacterCollection({characters}) {
     })
 
     return (
-        <Card.Group itemsPerRow={4} >
+        <Card.Group itemsPerRow={3} >
             {mappedCharacters}
         </Card.Group>
     )

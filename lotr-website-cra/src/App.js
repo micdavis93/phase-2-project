@@ -20,20 +20,16 @@ export default function App() {
       <br></br>
       <hr></hr>
       <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-
-        <Route exact path="/characters">
-          <CharacterList />
-        </Route>
-
         <Route path="/characters/:id">
           <CharacterPage />
         </Route>
 
         <Route path="/characters/new">
           <AddNewCharacter />
+        </Route>
+
+        <Route path="/characters">
+          <CharacterList />
         </Route>
 
         <Route path="/movies">
@@ -46,6 +42,10 @@ export default function App() {
 
         <Route path="/accomplishments">
           <AccomplishmentList />
+        </Route>
+
+        <Route path="/">
+          <Home />
         </Route>
       </Switch>
     </div>

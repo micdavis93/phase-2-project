@@ -5,7 +5,7 @@
       "name": "Galadriel",
       "image": "https://static.wikia.nocookie.net/lotr/images/c/cb/Galadriel.jpg",
       "wikiUrl": "https://lotr.fandom.com/wiki/Galadriel",
-      "pronunciation": "guh·LA·dree·uhl",
+      "pronunciation": "guh-LA-dree-uhl",
       "aka": "Alatáriel, Artanis, Nerwen",
       "gender": "F",
       "pronouns": [
@@ -50,7 +50,7 @@
           "source": ""
         }
       },
-      "description": "Galadriel was the Lady of the woods of Lothlórien, which she ruled with Celeborn, her husband. One of the greatest of the Elves in Middle-earth, she surpassed nearly all others in beauty, knowledge, and power. She bore Nenya, one of the three Elven rings of power. J.R.R. Tolkien thought of her as one of the mightiest and fairest of all Elves remaining in Middle-earth in the Third Age.",
+      "description": "Galadriel was the Lady of the woods of Lothlórien, which she ruled with Celeborn, her husband. One of the greatest of the Elves in Middle-earth, she surpassed nearly all others in beauty, knowledge, and power. She bore Nenya, one of the three Elven rings of power. J.R.R. Tolkien thought of her as one of the mightiest and fairest of all Elves remaining in Middle-earth in the Third Age. She was the only daughter and youngest child of Finarfin, prince of the Ñoldor, and Eärwen, whose cousin was Lúthien. Her elder brothers were Finrod Felagund, Orodreth, Angrod, and Aegnor. Galadriel was a niece of Fëanor, the most important Elf of the early First Age.",
       "actions": {
         "fellowship": {
           "quotes": [
@@ -91,7 +91,7 @@
       "name": "Sauron",
       "image": "https://static.wikia.nocookie.net/lotr/images/9/90/Sauron-2.jpg",
       "wikiUrl": "https://lotr.fandom.com/wiki/Sauron",
-      "pronunciation": "SAU·raan",
+      "pronunciation": "SAU-raan",
       "aka": "Annatar, The Necromancer, The Dark Lord",
       "gender": "M",
       "pronouns": [
@@ -166,6 +166,72 @@
         "otherQuotes": []
       },
       "favorite": false
+    },
+    {
+      "name": "Elrond",
+      "image": "https://static.wikia.nocookie.net/lotr/images/9/9f/Elrond_of_Rivendell.jpg/",
+      "wikiUrl": "https://lotr.fandom.com/wiki/Elrond",
+      "pronunciation": "EL-raand",
+      "aka": "Elrond Peredhel, Master Elrond",
+      "gender": "M",
+      "pronouns": [
+        "he",
+        "him",
+        "his"
+      ],
+      "height": "6'2\"",
+      "birth": {
+        "year": "FA 532",
+        "location": "Beleriand"
+      },
+      "death": {
+        "year": "Departed to Aman on September 29, 3021",
+        "age": 6520
+      },
+      "culture": "Half-elves (chose to be immortal)",
+      "weapons": "Vilya",
+      "spouse": "Celebrian",
+      "parents": {
+        "mother": "Elwing",
+        "father": "Eärendil"
+      },
+      "actor": {
+        "name": "Hugo Weaving",
+        "wikipedia": "https://en.wikipedia.org/wiki/Hugo_Weaving"
+      },
+      "firstApp": {
+        "theatrical": {
+          "minute": null,
+          "second": 0,
+          "image": "",
+          "source": ""
+        },
+        "extended": {
+          "movie": "",
+          "minute": 0,
+          "second": 0,
+          "image": "",
+          "source": ""
+        }
+      },
+      "description": "Elrond (Sindarin: \"Star-dome\") Half-elf, Lord of Rivendell, was a mighty Elf-ruler of old who dwelt in Middle-earth from the First Age to the beginning of the Fourth Age. He was the father of Elladan and Elrohir and Arwen Undómiel, the eventual wife of Aragorn II Elessar.",
+      "actions": {
+        "fellowship": {
+          "quotes": [],
+          "accomplishments": []
+        },
+        "towers": {
+          "quotes": [],
+          "accomplishments": []
+        },
+        "return": {
+          "quotes": [],
+          "accomplishments": []
+        },
+        "otherQuotes": []
+      },
+      "favorite": false,
+      "id": 3
     }
   ],
   "movies": [
@@ -204,6 +270,42 @@
       "image": "https://m.media-amazon.com/images/I/71X6YzwV0gL.jpg",
       "description": "The Lord of the Rings: The Return of the King is a 2003 epic fantasy adventure film directed by Peter Jackson from a screenplay by Fran Walsh, Philippa Boyens, and Jackson, based on 1955's The Return of the King, the third volume of the novel The Lord of the Rings by J. R. R. Tolkien. The sequel to 2002's The Lord of the Rings: The Two Towers, the film is the final installment in The Lord of the Rings trilogy. It features an ensemble cast including Elijah Wood, Ian McKellen, Liv Tyler, Viggo Mortensen, Sean Astin, Cate Blanchett, John Rhys-Davies, Bernard Hill, Billy Boyd, Dominic Monaghan, Orlando Bloom, Hugo Weaving, Miranda Otto, David Wenham, Karl Urban, John Noble, Andy Serkis, Ian Holm, and Sean Bean. Continuing the plot of the previous film, Frodo, Sam and Gollum are making their final way toward Mount Doom in Mordor in order to destroy the One Ring, unaware of Gollum's true intentions, while Merry, Pippin, Gandalf, Aragorn, Legolas, Gimli and the rest are joining forces together against Sauron and his legions in Minas Tirith. The Return of the King was financed and distributed by American studio New Line Cinema, but filmed and edited entirely in Jackson's native New Zealand, concurrently with the other two parts of the trilogy. It premiered on 1 December 2003 at the Embassy Theatre in Wellington, and was then released on 17 December 2003 in the United States and on 18 December 2003 in New Zealand. The film was acclaimed by both critics and audiences, who considered it to be a landmark in filmmaking and the fantasy film genre, with praise for the visual effects, performances, action sequences, direction, screenplay, musical score, costume design and emotional depth. It grossed over $1.1 billion worldwide, making it the highest-grossing film of 2003 and the second highest-grossing film of all time at the time of its release, as well as the highest-grossing film released by New Line Cinema.[5] Like the other films in the trilogy, The Return of the King is widely recognized as one of the greatest and most influential films ever made. The film received numerous accolades; at the 76th Academy Awards, it won all eleven awards for which it was nominated, including Best Picture, tying with 1959's Ben-Hur and 1997's Titanic as the movie with the most Academy Award wins. It also became the second film series whose entries have all won Best Visual Effects, after the original Star Wars trilogy.",
       "wikipedia": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Return_of_the_King"
+    },
+    {
+      "title": "Hobbit",
+      "releaseYear": "2012",
+      "length": {
+        "theatrical": 120,
+        "extended": 0
+      },
+      "image": "asdf",
+      "description": "asdf",
+      "wikipedia": "asdf",
+      "id": 4
+    },
+    {
+      "title": "d",
+      "releaseYear": "d",
+      "length": {
+        "theatrical": null,
+        "extended": 0
+      },
+      "image": "d",
+      "description": "d",
+      "wikipedia": "d",
+      "id": 5
+    },
+    {
+      "title": "The Hobbit",
+      "releaseYear": "2013",
+      "length": {
+        "theatrical": 150,
+        "extended": 0
+      },
+      "image": "https://m.media-amazon.com/images/M/MV5BMTcwNTE4MTUxMl5BMl5BanBnXkFtZTcwMDIyODM4OA@@._V1_.jpg",
+      "description": "Bilbo journeys to The Lonely Mountain.",
+      "wikipedia": "https://tolkiengateway.net/wiki/The_Hobbit_(film_series)",
+      "id": 6
     }
   ]
 }

@@ -4,7 +4,7 @@ import { Container } from "semantic-ui-react";
 
 import CharacterSearch from "./CharacterSearch"
 // import CharacterPage from "./CharacterPage"
-// import AddNewCharacter from "./AddNewCharacter"
+import AddNewCharacter from "./AddNewCharacter"
 import CharacterCollection from "./CharacterCollection";
 
 export default function CharacterList() {
@@ -36,7 +36,7 @@ export default function CharacterList() {
           <h2>All Movie Characters</h2>
           <CharacterSearch searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
           <CharacterCollection characters={filteredCharacters} />
-          {/* <AddNewCharacter addNewCharacter={addNewCharacter} /> */}
+          <AddNewCharacter addNewCharacter={addNewCharacter} />
       </Container>
   )
 }

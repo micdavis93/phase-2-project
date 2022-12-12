@@ -11,7 +11,7 @@ export default function MovieCollection({movies}) {
     })
 
     return (
-        <Card.Group itemsPerRow={1} >
+        <Card.Group itemsPerRow={3} >
             {mappedMovies}
         </Card.Group>
     )
